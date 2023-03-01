@@ -15,5 +15,4 @@ function highAndLow(numbers) {
     return highestNum + ' ' + lowestNum;
 }
 
-
 console.log(highAndLow("1 2 3"))
