@@ -10,3 +10,7 @@ function removeNoise(str) {
 }
 
 console.log(removeNoise("h%e&·%$·llo w&%or&$l·$%d"))
+
+function removeNoise(str){
+	return str.replace(/[%$&/#·@|º\\ª]/gi, '');
+}
